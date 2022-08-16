@@ -1,0 +1,32 @@
+[
+    {
+        "src": "https://gigacourse.com/wp-content/uploads/2019/10/1243546534.jpg",
+        "text": "Learn Python: The Complete Python Programming Course",
+        "creator": "Avinash Jain, The Codex",
+        "price": "$84.99"
+    },
+    {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqIHYM44p36euODJMOiGZcukW2H3OfwxM0rw&usqp=CAU",
+        "text": "Learning Python for Data Analysis ans Visualisation",
+        "creator": "Jose Portilla",
+        "price": "$84.99"
+    },
+    {
+        "src": "https://downloadfreecourse.com/uploads/images/2020/webp/image_750x_5ec23304b1a48.webp",
+        "text": "Python for Beginners - Learn Programming from scratch",
+        "creator": "Edwin Diaz, Coding Faculty Solutions",
+        "price": "$84.99"
+    },
+    {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBAqvBomYzOuUy37LZZZvNe0hh1MIdraldrg&usqp=CAU",
+        "text": "Learn Python: Python for Beginners",
+        "creator": "Abrar Hussain",
+        "price": "$29.99"
+    },
+    {
+        "src": "https://downloadfreecourse.com/uploads/images/2020/webp/image_750x_5ec233f983dc8.webp",
+        "text": "Python Beyond the Basics - Object-Oriented Programming",
+        "creator": "Infinite Skills",
+        "price": "$49.99"
+    }
+]
