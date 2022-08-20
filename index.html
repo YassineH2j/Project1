@@ -5,11 +5,13 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <div class="nav">
+        <div class="navv">
             <div class="logo">
                 <img id="image"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png" />
@@ -30,11 +32,11 @@
             <div class="buy">
                 <button id="buy"></button>
             </div>
-            <div class="login">
-                <button id="login"> Log in </button>
+            <div class="loginn">
+                <button id="loginbtn"> Log in </button>
             </div>
-            <div class="signup">
-                <button id="signup"> Sign up </button>
+            <div class="signups">
+                <button id="signupbtn"> Sign up </button>
             </div>
             <div class="globe">
                 <div class="globe2">
@@ -86,11 +88,163 @@
                     appeal to both beginners and advanced developers alike.</p>
                 <button id="explore">Explore Python</button>
             </div>
-            <div id="cardss" class="cards"></div>
+            <!-- <div id="cardss" class="cards"></div> -->
+            <div class="container-fluid">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="cardd col-3">
+                                    <div class="imggg">
+                                        <img src="https://gigacourse.com/wp-content/uploads/2019/10/1243546534.jpg"
+                                            class="img-fluid" alt="">
+                                    </div>
+                                    <h3>Learn Python: The Complete Python Programming Course</h3>
+                                    <p>Avinash Jain, The Codex</p>
+                                    <h3>$84.99</h3>
+                                </div>
+                                <div class="cardd col-3">
+                                    <div class="imggg">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqIHYM44p36euODJMOiGZcukW2H3OfwxM0rw&usqp=CAU"
+                                            alt="">
+                                    </div>
+                                    <h3>Learning Python for Data Analysis ans Visualisation</h3>
+                                    <p>Jose Portilla</p>
+                                    <h3>$84.99</h3>
+                                </div>
+                                <div class="cardd col-3">
+                                    <div class="imggg">
+                                        <img src="https://downloadfreecourse.com/uploads/images/2020/webp/image_750x_5ec23304b1a48.webp"
+                                            alt="">
+                                    </div>
+                                    <h3>Python for Beginners - Learn Programming from scratch</h3>
+                                    <p>Edwin Diaz, Coding Faculty Solutions</p>
+                                    <h3>$84.99</h3>
+                                </div>
+                                <div class="cardd col-3">
+                                    <div class="imggg">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBAqvBomYzOuUy37LZZZvNe0hh1MIdraldrg&usqp=CAU"
+                                            alt="">
+                                    </div>
+                                    <h3>Learn Python: Python for Beginners</h3>
+                                    <p>Abrar Hussain</p>
+                                    <h3>$29.99</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="cardd col-3">
+                                    <div class="imggg">
+                                        <img src="https://downloadfreecourse.com/uploads/images/2020/webp/image_750x_5ec233f983dc8.webp"
+                                            alt="">
+                                    </div>
+                                    <h3>Python Beyond the Basics - Object-Oriented Programming</h3>
+                                    <p>Infinite Skills</p>
+                                    <h3>$49.99</h3>
+                                </div>
+                                <div class="cardd col-3">
+                                    <div class="imggg">
+                                        <img src="https://ccweb.imgix.net/https%3A%2F%2Fd3f1iyfxxz8i1e.cloudfront.net%2Fcourses%2Fcourse_image%2Ff3c6184d8b43.jpg?ar=16%3A9&auto=format&cs=strip&fit=crop&h=380&ixlib=php-3.3.1&w=535&s=ee46f658ccc0ffa210383ac5c4dcaa54"
+                                            alt="">
+                                    </div>
+                                    <h3>Python Beyond the Basics - Object-Oriented Programming</h3>
+                                    <p>Infinite Skills</p>
+                                    <h3>$49.99</h3>
+                                </div>
+                                <div class="cardd col-3">
+                                    <div class="imggg">
+                                        <img src="https://i.ytimg.com/vi/LBj0PLUbk-A/maxresdefault.jpg"
+                                            alt="">
+                                    </div>
+                                    <h3>Python Beyond the Basics - Object-Oriented Programming</h3>
+                                    <p>Infinite Skills</p>
+                                    <h3>$49.99</h3>
+                                </div>
+                                <div class="cardd col-3">
+                                    <div class="imggg">
+                                        <img src="https://downloadfreecourse.com/uploads/images/2022/04/webp/image_750x_624d57c6e82c4.webp"
+                                            alt="">
+                                    </div>
+                                    <h3>Python Beyond the Basics - Object-Oriented Programming</h3>
+                                    <p>Infinite Skills</p>
+                                    <h3>$49.99</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <script type="text/javascript" src="courses.json"></script>
-    <script type="text/javascript" src="script.js"></script>
+        <div class="content">
+            <h2>Top categories</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <img class="img-fluid" src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg"
+                        alt="">
+                    <h6 class="mt-2 fw-bold">Design</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <img class="img-fluid"
+                        src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" alt="">
+                    <h6 class="mt-2 fw-bold">Development</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <img class="img-fluid"
+                        src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" alt="">
+                    <h6 class="mt-2 fw-bold">Marketing</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <img class="img-fluid"
+                        src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg" alt="">
+                    <h6 class="mt-2 fw-bold">IT and Software</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <img class="img-fluid"
+                        src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"
+                        alt="">
+                    <h6 class="mt-2 fw-bold">Personal Development</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <img class="img-fluid"
+                        src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg" alt="">
+                    <h6 class="mt-2 fw-bold">Business</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <img class="img-fluid"
+                        src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg" alt="">
+                    <h6 class="mt-2 fw-bold">Photography</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <img class="img-fluid" src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg"
+                        alt="">
+                    <h6 class="mt-2 fw-bold">Music</h6>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="courses.json"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+            integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+            crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

@@ -9,7 +9,7 @@ function work(data) {
     let htmlString = "";
     data.forEach(element => {
         htmlString +=
-            `<div class="card">
+            `<div class="cardd">
                 <div class="imggg">
                     <img src="${element.src}" alt="">
                 </div>
@@ -36,7 +36,7 @@ function work2(data) {
     data.forEach(element => {
         let str = "";
         str =
-            `<div class="card">
+            `<div class="cardd">
                 <div class="imggg">
                     <img src="${element.src}" alt="">
                 </div>
